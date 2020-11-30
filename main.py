@@ -69,7 +69,7 @@ class MainWindow(TemplateBaseClass):
         print(data)
         start = self.ui.spinBox_2.value()
         finish = self.ui.spinBox_3.value()
-        self.ui.label.setText("Кратчайший путь от вершины "+ str(start)+ " до вершины " + str(finish)+ " равен "+ str(Dijkstra(s,start-1,finish-1,data)))
+        self.ui.label.setText("Кратчайший путь от вершины "+ str(start)+ "\nдо вершины " + str(finish)+ " равен "+ str(Dijkstra(s,start-1,finish-1,data)))
 
 
 print(11111111111111)
