@@ -72,7 +72,7 @@ class MainWindow(TemplateBaseClass):
         self.ui.label.setText("Кратчайший путь от вершины "+ str(start)+ "\nдо вершины " + str(finish)+ " равен "+ str(Dijkstra(s,start-1,finish-1,data)))
 
 
-print(11111111111111)
+
 
 win = MainWindow()
 
